@@ -230,6 +230,140 @@ body{
     align-items: center;
 }
 
+.how_container{
+    width: 1099px;
+    height: 1378px;
+    display: flex;
+    flex-direction: column;
+}
+
+.how{
+    width: 363px;
+    height: 71px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 56px;
+    left: 528px;
+}
+
+.how h1{
+    font-family: "Roboto-Bold";
+    font-size: 64px;
+    color: var(--color-1);
+
+}
+
+.expl{
+    width: 654px;
+    height: 146px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 70px;
+    left: 383px;
+}
+
+.expl p{
+    font-family: "Roboto-Regular";
+    font-size: 36px;
+    color: var(--color-1);
+    text-align: center;
+}
+
+.rules{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 169px;
+    top: 150px;
+}
+
+.rule_1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.rule_1_text{
+    font-family: "Roboto-Regular";
+    font-size: 28px;
+    color: var(--color-1);
+    position: relative;
+    left: 30px;
+    padding-right: 50px;
+}
+
+.rule_2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    top: 30px;
+}
+
+.rule_2_text{
+    font-family: "Roboto-Regular";
+    font-size: 28px;
+    color: var(--color-1);
+    position: relative;
+    left: 30px;
+    padding-right: 50px;
+}
+
+.rule_3{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    top: 50px;
+}
+
+.rule_3_text{
+    font-family: "Roboto-Regular";
+    font-size: 28px;
+    color: var(--color-1);
+    position: relative;
+    left: 30px;
+    padding-right: 50px;
+}
+
+.rule_4{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    top: 70px;
+}
+
+.rule_4_text{
+    font-family: "Roboto-Regular";
+    font-size: 28px;
+    color: var(--color-1);
+    position: relative;
+    left: 30px;
+    padding-right: 50px;
+}
+
+.rule_5{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    top: 90px;
+}
+
+.rule_5_text{
+    font-family: "Roboto-Regular";
+    font-size: 28px;
+    color: var(--color-1);
+    position: relative;
+    left: 30px;
+    padding-right: 50px;
+}
+
 
 
 
