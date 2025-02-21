@@ -137,3 +137,100 @@ body{
     padding-left: 217px;
 }
 
+.presentation{
+    width: 1319px;
+    height: 592px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 80px;
+    
+}
+
+.side_1{
+    width: 707px;
+    height: 592px;
+    position: relative;
+    left: 100px;
+    top: 39px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.info h1{
+    font-family: "Roboto-Regular";
+    font-size: 56.4px;
+    color: var(--color-1);
+    font-weight: lighter;
+}
+
+.info p{
+    font-family: "Roboto-Regular";
+    font-size: 26px;
+    color: var(--color-1);
+}
+
+.side_2{
+    width: 567px;
+    height: 526.36px;
+    display: flex;
+    flex-direction: row;
+}
+
+.info_1{
+    width: 494.01px;
+    height: 542px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttom_1{
+    width: 249px;
+    height: 59px;
+    border-radius: 31.5px;
+    background-color: var(--color-1);
+}
+
+.buttom_1 a{
+    text-decoration: none;
+}
+
+.item{
+    display: flex;
+}
+
+.market{
+    position: relative;
+    left: 40px;
+    top: 14px;
+}
+
+.buy{
+    position: relative;
+    left: 80px;
+    top: -35px;
+}
+
+.buy p{
+    font-family: "Roboto-Bold";
+    font-size: 40px;
+    color: var(--color-2);
+}
+
+.social{
+    width: 62px;
+    height: 181.36px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 388px;
+    align-items: center;
+}
+
+
+
+
+
