@@ -364,6 +364,75 @@ body{
     padding-right: 50px;
 }
 
+.help_container{
+    width: 1167px;
+    height: 447px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 169px;
+}
+
+.help{
+    display: flex;
+    flex-direction: column;
+    gap: 83px;
+}
+
+.tittle_1 h1{
+    font-family: "Roboto-Bold";
+    font-size: 72px;
+    color: var(--color-1);
+    position: relative;
+    left: -61px;
+}
+
+.text p{
+    font-family: "Roboto-Regular";
+    font-size: 36px;
+    font-weight: lighter;
+    color: var(--color-1);
+    position: relative;
+    top: 50px;
+}
+
+.sec_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 20px;
+}
+
+.img_help img{
+    width: 370px;
+    height: 300px;
+
+}
+
+.buttom_2{
+    width: 282px;
+    height: 57px;
+    border-radius: 32.5px;
+    background: var(--color-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30px;
+    left: 35px;
+}
+
+.buttom_2 a{
+    text-decoration: none;
+}
+
+.buttom_2 p{
+    font-family: "Roboto-Bold";
+    font-size: 36px;
+    color: var(--color-2);
+}
 
 
 
