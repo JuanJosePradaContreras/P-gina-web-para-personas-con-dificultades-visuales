@@ -1,7 +1,139 @@
-@import url(../variable.css);
+@import url(variable.css);
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background: var(--color-2);
+}
+
+.header_container{
+    width: 1440px;
+    height: 141px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 31px;
+}
+
+.logo{
+    width: 298px;
+    height: 96px;
+    border-radius: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-1);
+    position: relative;
+    left: -50px;
+
+}
+
+.logo p{
+    font-family: "Roboto-Regular";
+    font-size: 48px;
+    position: relative;
+}
+
+.logo img{
+    width: 46px;
+    height: 45px;
+}
+
+.container_menu{
+    width: 732px;
+    height: 38px;
+    display: flex;
+    position: relative;
+    left: 90px;
+}
+
+.home{
+    width: 732px;
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+}
+
+.init{
+  width: 90px;
+  height: 38px;
+  margin: 8px;
+  padding-right: 73px;  
+}
+
+.init a{
+    text-decoration: none;
+}
+
+.init p{
+    font-family: "Roboto-Bold";
+    font-size: 24px;
+    color: var(--color-1);
+}
+
+.how{
+    width: 142px;
+    height: 38px;
+    margin: 8px;
+    position: relative;
+    left: 15px;
+}
+
+.how a{
+    text-decoration: none;
+}
+
+.how p{
+    font-family: "Roboto-Bold";
+    font-size: 24px;
+    color: var(--color-1);
+}
+
+.help{
+    margin: 8px;
+    padding-right: 64px;
+    padding-left: 56px;
+}
+
+.help a{
+    text-decoration: none;
+}   
+
+.help p{
+    font-family: "Roboto-Bold";
+    font-size: 24px;
+    color: var(--color-1);
+}
+
+.about{
+    margin: 8px;
+}
+
+.about a{
+    text-decoration: none;
+}
+
+.about p{
+    font-family: "Roboto-Bold";
+    font-size: 24px;
+    color: var(--color-1);
+}
+
+.night_container{
+    width: 103px;
+    height: 40px;
+}
+
+.night{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    padding-left: 217px;
+}
+
